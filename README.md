@@ -1,5 +1,6 @@
 # Prevalos
-Automatically login to [HaloWaypoint](https://www.halowaypoint.com/en-us) and collect the daily login REQ pack.
+Automatically login to [HaloWaypoint](https://www.halowaypoint.com/en-us) and collect the daily login REQ pack. Powered by [Taiko](https://taiko.gauge.org/).
+
 The project is named after [Knight Prevalos](http://halo.wikia.com/wiki/Prevalos), a Halo 5 Warzone boss.
 
 ## Usage
