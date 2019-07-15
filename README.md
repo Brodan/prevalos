@@ -7,8 +7,12 @@ The project is named after [Knight Prevalos](http://halo.wikia.com/wiki/Prevalos
 $ git clone https://github.com/Brodan/prevalos.git
 $ cd prevalos/
 $ npm install
-$ npm start
+$ export XBOX_LOGIN_EMAIL="XXXXXXXXXXXX@live.com"
+$ export XBOX_LOGIN_PASSWORD="YYYYYYYYYYYY"
+$ npm start # use npm start -- --observe to watch it in a browser
 ```
+
+Add to cron for daily execution.
 
 ## Deploy To Heroku
 Coming soon.
@@ -19,6 +23,8 @@ Coming soon.
 ## Contribute
 Pull requests welcome, or [submit an issue])https://github.com/Brodan/prevalos/issues/new).
 
-
 ## License
 [MIT © Christopher Hranj.](./LICENSE)
+
+## Donate
+<a href='https://ko-fi.com/A71814ZL' target='_blank'><img height='36' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
