@@ -1,0 +1,25 @@
+{
+  "name": "prevalos",
+  "version": "1.0.0",
+  "description": "Automatically login to HaloWaypoint and collect the daily login REQ pack.",
+  "main": "app.js",
+  "scripts": {
+    "start": "taiko app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brodan/prevalos.git"
+  },
+  "keywords": [
+    "halowaypoint",
+    "xbox",
+    "taiko"
+  ],
+  "author": "Brodan <christopher.hranj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brodan/prevalos/issues"
+  },
+  "homepage": "https://github.com/Brodan/prevalos#readme"
+}
