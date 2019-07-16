@@ -3,6 +3,8 @@ Automatically login to [HaloWaypoint](https://www.halowaypoint.com/en-us) and co
 
 The project is named after [Knight Prevalos](http://halo.wikia.com/wiki/Prevalos), a Halo 5 Warzone boss.
 
+![REQ Pack Gif](https://github.com/Brodan/prevalos/blob/master/reqpack.gif)
+
 ## Usage
 ```
 $ git clone https://github.com/Brodan/prevalos.git
