@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Brodan/prevalos/issues"
   },
-  "homepage": "https://github.com/Brodan/prevalos#readme"
+  "homepage": "https://github.com/Brodan/prevalos#readme",
+  "dependencies": {
+    "taiko": "^1.0.2"
+  }
 }

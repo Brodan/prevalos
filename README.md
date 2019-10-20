@@ -12,13 +12,13 @@ $ cd prevalos/
 $ npm install
 $ export XBOX_LOGIN_EMAIL="XXXXXXXXXXXX@live.com"
 $ export XBOX_LOGIN_PASSWORD="YYYYYYYYYYYY"
-$ npm start # use npm start -- --observe to watch it in a browser
+$ npm start # use 'npm start -- --observe' to watch it in a browser
 ```
 
-Add to cron for daily execution.
+Use a scheduler such as cron for daily execution.
 
 ## Deploy To Heroku
-Coming soon.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Maintainers
 [@Brodan](https://github.com/Brodan).

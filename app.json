@@ -1,0 +1,16 @@
+{
+  "name": "Prevalos",
+  "description": "A taiko-powered app to automatically claim Halo 5 daily REQ packs.",
+  "repository": "https://github.com/brodan/prevalos",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["halowaypoint", "xbox", "taiko"],
+  "website": "https://github.com/Brodan/prevalos#readme",
+  "env": {
+      "XBOX_LOGIN_EMAIL": {
+        "description": "The email address associated with your Xbox Live/HaloWaypoint account."
+      },
+      "XBOX_LOGIN_PASSWORD": {
+        "description": "The password associated with your Xbox Live/HaloWaypoint account."
+      }
+    }
+}
