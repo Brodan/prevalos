@@ -12,5 +12,8 @@
       "XBOX_LOGIN_PASSWORD": {
         "description": "The password associated with your Xbox Live/HaloWaypoint account."
       }
-    }
+    },
+  "addons": [
+    "scheduler"
+  ]
 }
