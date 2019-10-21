@@ -13,6 +13,11 @@
         "description": "The password associated with your Xbox Live/HaloWaypoint account."
       }
     },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    }
+  ],
   "addons": [
     "scheduler"
   ]
