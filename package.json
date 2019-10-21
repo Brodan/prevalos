@@ -4,6 +4,7 @@
   "description": "Automatically login to HaloWaypoint and collect the daily login REQ pack.",
   "main": "app.js",
   "scripts": {
+    "build": "npm install",
     "start": "taiko app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +23,9 @@
     "url": "https://github.com/Brodan/prevalos/issues"
   },
   "homepage": "https://github.com/Brodan/prevalos#readme",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "taiko": "^1.0.2"
   }
