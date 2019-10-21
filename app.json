@@ -18,7 +18,7 @@
       "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
     },
     {
-      "url": "heroku/nodjs"
+      "url": "heroku/nodejs"
     }
   ],
   "addons": [
