@@ -12,13 +12,20 @@ $ cd prevalos/
 $ npm install
 $ export XBOX_LOGIN_EMAIL="XXXXXXXXXXXX@live.com"
 $ export XBOX_LOGIN_PASSWORD="YYYYYYYYYYYY"
-$ npm start # use 'npm start -- --observe' to watch it in a browser
+$ npm start
+# Use '$ npm start -- --observe' to see it live in a browser
 ```
 
-Use a scheduler such as cron for daily execution.
+Use a scheduler such as cron for daily execution. For example, to run every day at midnight, add the following to your crontab:
+0 0 * * * npm start --prefix /path/to/prevalos
 
 ## Deploy To Heroku
+Alternatively, you can use Heroku and the [Heroku Scheduler](https://elements.heroku.com/addons/scheduler) to deploy it and forget about it:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## To-Do
+[ ] Add logging.
+[ ] Open REQ pack and log contents.
 
 ## Maintainers
 [@Brodan](https://github.com/Brodan).
