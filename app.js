@@ -1,7 +1,7 @@
 const { openBrowser, goto, click, write, closeBrowser } = require('taiko');
 (async () => {
     try {
-        await openBrowser();
+        await openBrowser({args: ['--no-sandbox', '--disable-setuid-sandbox']});
         await goto("https://www.halowaypoint.com/en-us");
         await click("Sign In");
         await write(process.env.XBOX_LOGIN_EMAIL);

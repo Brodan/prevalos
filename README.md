@@ -26,6 +26,7 @@ Alternatively, you can use Heroku and the [Heroku Scheduler](https://elements.he
 
 ## To-Do
 - [ ] Add logging.
+- [ ] Validate email address before running.
 - [ ] Open REQ pack and log contents.
 
 ## Maintainers
